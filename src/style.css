@@ -1,0 +1,25 @@
+/* General Page Layout */
+
+/* Navbar */
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav > h1 {
+    color: goldenrod;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

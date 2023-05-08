@@ -1,6 +1,8 @@
-export default function NavBar() {
+export default function NavBar( { title } ) {
+
     return(
         <nav>
+            <h1>{title}</h1>
             <ul>
                 <li>
                     <a href="/">Home</a>
@@ -12,7 +14,7 @@ export default function NavBar() {
                     <a href="/market">Market</a>
                 </li>
                 <li>
-                    <a href="/potions">Potions Shop</a>
+                    <a href="/potions">Potions</a>
                 </li>
             </ul>
         </nav>

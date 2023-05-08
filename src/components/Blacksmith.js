@@ -1,7 +1,7 @@
+import NavBar from "./NavBar"
+
 export default function Blacksmith() {
     return(
-        <div>
-            <h1>Blacksmith Page</h1>
-        </div>
+        <NavBar title="Blacksmith" />
     )
 }
