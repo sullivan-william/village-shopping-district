@@ -4,17 +4,21 @@ import Blacksmith from "./components/Blacksmith";
 import Market from "./components/Market";
 import Potions from "./components/Potions";
 import './style.css';
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blacksmith" element={<Blacksmith />} />
-        <Route path="/market" element={<Market />} />
-        <Route path="/potions" element={<Potions />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <NavBar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blacksmith" element={<Blacksmith />} />
+          <Route path="/market" element={<Market />} />
+          <Route path="/potions" element={<Potions />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

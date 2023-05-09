@@ -1,7 +1,5 @@
-import NavBar from "./NavBar"
-
 export default function Market() {
-    return(
-        <NavBar title="Market" />
+    return (
+        <div>Market Page</div>
     )
 }

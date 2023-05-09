@@ -1,7 +1,5 @@
-import NavBar from "./NavBar";
-
 export default function Potions() {
-    return(
-        <NavBar title="Potions" />
+    return (
+        <div>Potions Page</div>
     )
 }
